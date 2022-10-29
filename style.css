@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+
+
+*{
+    
+    margin: 0;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 500;
+}
+
+header{
+    background-color: red;
+    margin: 0;
+    padding: 0.5em;
+    position: relative;
+    display: block;
+    
+    
+
+}
+
+/*-- barra menu--*/
+
+div.menu{
+	background: #000;
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+div.barra{
+	display: inline;
+	text-align: center;
+	word-spacing: 1em;
+	font-size: 18px;
+	font-family: "Alkalami", serif;
+vertical-align: top;
+	padding: 1em;
+	color: red;
+	margin: 0;
+    
+
+
+}
+
+/*LINK*/
+
+      a:link{
+        
+            font-family: "Alkalami", serif;
+                color: red;
+              }
+              a:visited{
+                    color: red;
+
+                      }
+                      a:active{
+                            color: red;
+
+                              }
+                              a:hover{
+                                    color: #FFF;
+
+                                      }
+
+/* -- body --*/
+
+
+
+
+body {
+   
+    background-color: red;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: block;
+    line-height: 1.1em;
+    
+
+}
+
+h2{
+    font-family: "Alkalami", monospace;
+    font-weight: 900;
+    padding: 1em;
+    
+    
+}
+
+p{
+    padding: 1.5em;
+}
+
+
+
+
+.conteudo{
+    
+    position: relative;
+    display: block;
+
+ 
+
+    min-width: 40%;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.intro{
+    margin-bottom: 6em;
+    background-color: rgba(255,255,255, 0.95);
+}
+
+.intro img{
+    width: 100%;
+    
+}
+
+.sinopse{
+margin-bottom: 6em;
+    background-color: rgba(255,255,255, 0.95);
+}
+
+/* FIM DIV DO BODY*/
+
+/* AVISO AMARELO*/
+.spoil{
+
+   background-color: rgba(255,255,255, 0.95);
+}
+.spoiler{
+    background-color: yellow;
+}
+
+.spoiler p{
+    font-family: "Alkalami", monospace;
+    font-weight: 700;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: -1em;
+}
+
+.spoiler p + p {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 1em;
+
+}
+
+/*FIM DO AVISO*/
+/* IMAGEM BOTAO */
+
+.button3 {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+  transition-duration: 0.4s;
+  cursor:pointer;
+    background-color: #000;
+}
+/* DIV ESCONDIDA*/
+.myDIV {
+  background-color: red;
+margin-bottom: 9em;
+    display: none;
+}
+
+
+/* botão stop*/
+
+.button1 {
+  background-color: gray; 
+  color: white;
+  padding: 26px 42px;
+  text-align: center;
+     position: fixed;
+  bottom: 8px;
+  left: 16px;
+  font-size: 22px;
+  margin: 10px 10px;
+  transition-duration: 0.4s;
+  cursor:pointer;
+}
+
+
+.button1:hover {
+  background-color: black;
+  color: red;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/*bOtao refresh*/
+
+.button2 {
+  background-color: gray; 
+  color: white;
+     position: fixed;
+  bottom: 8px;
+  right: 16px;
+  transition-duration: 0.4s;
+  cursor:pointer;
+}
+
+
+.button2:hover {
+  background-color: black;
+  color: red;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+ /* footer*/
+
+li{
+    display: inline;
+    margin: 2em;
+    
+}
+
+
+
+
+
